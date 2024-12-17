@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: auto;
+    width: 100vw;
+   
+}
+.container {
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column;
+    justify-content: center; /* Horizontally center the container*/
+    align-items: center; /* Vertically center the container */
+    height: 100vh; /* Full viewport height */
+}
+.container h1{
+    font-size: 50px;
+    display: flex;
+   justify-content: center;
+}
+
+button {
+    background-color:rgb(230, 226, 226) ;
+    color:black;
+    font-size: 1rem;
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+    font-weight: 700;
+    border-color: white;
+    border-radius: 15px;
+}
+button:hover{
+    font-size: 18px;
+    background-color:red ;
+    border-color: red;
+    color:white;  
+    border-radius: 15px;
+}
+
